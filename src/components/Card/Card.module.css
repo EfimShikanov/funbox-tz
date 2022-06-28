@@ -1,0 +1,127 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 17px 27px 0 45px;
+    border-radius: 12px;
+    clip-path: polygon(0% 40px, 40px 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.cardBackground {
+    width: 320px;
+    height: 480px;
+    background-color: #1698D9;
+    border-radius: 12px;
+    clip-path: polygon(0% 40px, 40px 0%, 100% 0%, 100% 100%, 0% 100%);
+    padding: 4px;
+    cursor: pointer;
+}
+
+.cardBackgroundDisabled {
+    width: 320px;
+    height: 480px;
+    background-color: #2EA8E6;
+    border-radius: 12px;
+    clip-path: polygon(0% 40px, 40px 0%, 100% 0%, 100% 100%, 0% 100%);
+    padding: 4px;
+    filter: grayscale(90%);
+}
+
+.cardHeaderSmall {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 5px;
+    padding-left: 3px;
+}
+
+.cardHeader {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.cardHeaderIngredient {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    padding-left: 3px;
+}
+
+.cardDetails {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 33px;
+    padding-left: 3px;
+}
+.cardDetailsBold {
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+.image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 275px;
+    background-image: url("../../img/Cat.png");
+    background-repeat: no-repeat;
+    background-position: bottom -93px left -27px;
+}
+
+.image > img {
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.weight {
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    font-size: 42px;
+    background-color: #1698D9;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.measureItem {
+    font-size: 21px;
+}
+
+.bottomTextContainer {
+    display: flex;
+    font-size: 13px;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.bottomText {
+    margin-right: 6px;
+}
+
+.bottomTextDisabled {
+    color: #FFFF66;
+}
+
+.bottomTextButton {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    color: #1698D9;
+    cursor: pointer;
+}
