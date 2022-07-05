@@ -72,14 +72,10 @@
     left: 0;
     width: 320px;
     height: 275px;
-    background-image: url("../../img/Cat.png");
+    background-image: url("./../../img/Cat.png");
     background-repeat: no-repeat;
     background-position: bottom -93px left -27px;
-}
-
-.image > img {
-    object-fit: cover;
-    object-position: 100% 0;
+    border-radius: 12px;
 }
 
 .weight {
