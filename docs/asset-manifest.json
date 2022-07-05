@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.551ddc03.css",
+    "main.js": "./static/js/main.a6ccbdbb.js",
+    "static/media/Cat.png": "./static/media/Cat.58676bb34b670741bded.png",
+    "static/media/Background.png": "./static/media/Background.7858f3d0f9b100e9018a.png",
+    "static/media/Exo2.0-Thin.otf": "./static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
+    "index.html": "./index.html",
+    "main.551ddc03.css.map": "./static/css/main.551ddc03.css.map",
+    "main.a6ccbdbb.js.map": "./static/js/main.a6ccbdbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.551ddc03.css",
+    "static/js/main.a6ccbdbb.js"
+  ]
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
-import {switchIsHovered, switchIsSelected} from "../../slices/cardsSlice";
+import {switchIsHovered, switchIsSelected} from "./../../slices/cardsSlice";
 import S from "./Card.module.css";
 
 const Card = (props) => {
@@ -114,15 +114,9 @@ const Card = (props) => {
 					<div className={S.cardHeader}>Нямушка</div>
 					<div className={S.cardHeaderIngredient}>{props.cardDetails.ingredient}</div>
 					<div className={S.cardDetails}>
-						{/*<div style={{display: "flex"}}>
-							<div className={S.cardDetailsBold}>10</div>
-							порций
-						</div>
-						<div>Мышь в подарок</div>*/}
 						{renderDetails()}
 					</div>
 					<div className={S.image}>
-						{/*<img src={Cat} alt=""/>*/}
 					</div>
 					<div
 						className={S.weight}
