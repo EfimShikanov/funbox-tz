@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# What's this?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created for [FunBox](https://funbox.ru/).
 
 ## Available Scripts
 
