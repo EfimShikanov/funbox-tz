@@ -23,19 +23,19 @@ const Card = (props) => {
 		return props.cardDetails.additional.map((item, index) => {
 			switch (index) {
 				case 0: {
-					return <div><b>{item}</b> порций</div>
+					return <div key={index}><b>{item}</b> порций</div>
 				}
 				case 1: {
 					if(item === 1) {
-						return <div>мышь в подарок</div>
+						return <div key={index}>мышь в подарок</div>
 					} else if(item === 2) {
-						return <div><b>{item}</b> мыши в подарок</div>
+						return <div key={index}><b>{item}</b> мыши в подарок</div>
 					} else if(item === 5) {
-						return <div><b>{item}</b> мышей в подарок</div>
+						return <div key={index}><b>{item}</b> мышей в подарок</div>
 					} else return null
 				}
 				default: {
-					return <div>заказчик доволен</div>
+					return <div key={index}>заказчик доволен</div>
 				}
 			}
 		})
@@ -61,7 +61,7 @@ const Card = (props) => {
 		} else {
 			return (
 				<>
-					<div className={S.bottomText}>
+					<div>
 						Чего сидишь? Порадуй котэ,
 					</div>
 					<div
