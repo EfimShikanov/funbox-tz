@@ -24,6 +24,7 @@
     clip-path: polygon(0% 40px, 40px 0%, 100% 0%, 100% 100%, 0% 100%);
     padding: 4px;
     cursor: pointer;
+    transition: all 0.25s linear;
 }
 
 .cardBackgroundDisabled {
@@ -73,7 +74,7 @@
     left: 0;
     width: 320px;
     height: 275px;
-    background-image: url("./../../img/Cat.png");
+    background-image: url("../../core/img/Cat.png");
     background-repeat: no-repeat;
     background-position: bottom -93px left -27px;
     border-radius: 12px;
@@ -93,6 +94,7 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    transition: all 0.25s linear;
 }
 
 .measureItem {

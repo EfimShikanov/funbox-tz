@@ -1,9 +1,9 @@
 import React from 'react';
-import S from "./Cards.module.css";
-import Card from "../Card/Card";
+import S from "./CardsContainer.module.css";
+import Card from "../card/Card";
 import {useSelector} from "react-redux";
 
-const Cards = () => {
+const CardsContainer = () => {
 
 	const cards = useSelector((state) => state.cards.cards);
 	const renderCards = () => {
@@ -32,4 +32,4 @@ const Cards = () => {
 	);
 };
 
-export default Cards;
+export default CardsContainer;

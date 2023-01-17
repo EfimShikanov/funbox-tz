@@ -11,7 +11,7 @@ body, html {
 }
 
 html {
-  background:-webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-05) 49.88%, rgba(0, 0, 0, 0.5) 100%) center center, url("./img/Background.png");
+  background:-webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-05) 49.88%, rgba(0, 0, 0, 0.5) 100%) center center, url("core/img/Background.png");
   background-size: cover;
 }
 

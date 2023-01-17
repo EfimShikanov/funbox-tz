@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
-import {switchIsHovered, switchIsSelected} from "./../../slices/cardsSlice";
+import {switchIsHovered, switchIsSelected} from "../../core/store/slices/cardsSlice";
 import S from "./Card.module.css";
 
 const Card = (props) => {

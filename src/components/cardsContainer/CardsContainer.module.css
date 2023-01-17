@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Exo 2.0";
+    src: url("../../core/assets/fonts/Exo2.0-Thin.otf");
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.containerHeader {
+    font-size: 36px;
+    font-family: "Exo 2.0", sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: center;
+}
